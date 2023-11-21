@@ -9,7 +9,13 @@ This project was built using python. ORM used was sqlalchemy
 - Relations are used to enhance SQL queries and performance
 - Environment variables were used to keep the application safe when deploying
 
-## Future work
+https://www.youtube.com/watch?v=hK5ZHxyg1cA
 
+# Userguide
 
--
+Unfortunately, I couldn't run the front inside the Docker container.
+Therefore, to check the functionality of the application you must:
+
+Use node 18+
+Run activate.sh for the environment variables and run the docker-compose that contains the DB and the back
+Run npm run dev in the front folder
